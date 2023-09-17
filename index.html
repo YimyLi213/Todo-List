@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="icon" type="image/x-icon" href="./favicon.png" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>My To-do List</h1>
+    </header>
+
+    <form action="" class="inline">
+      <input type="text" class="input-field" id />
+
+      <input
+        type="date"
+        id="date"
+        name="trip-start"
+        value="Date"
+        min="2023-01-01"
+        max="2043-12-31"
+        required
+      />
+
+      <input
+        type="time"
+        id="time"
+        name="appt"
+        min="00:00"
+        max="23:59"
+        required
+      />
+      <button type="submit" id="submit">Add Into List</button>
+    </form>
+
+    <br />
+    <br />
+
+    <div class="sort">
+      <button id="sort">Sort By Time</button>
+    </div>
+
+    <section></section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
